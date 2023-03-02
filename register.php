@@ -10,14 +10,18 @@
     <title>login practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
     <link rel="stylesheet"
           href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
-            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
@@ -37,28 +41,36 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page"
+                           href="index.php">Home</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#"
+                           id="navbarDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="index.php">Home</a></li>
-                            <li><a class="dropdown-item" href="login.php">Login</a></li>
-                            <li><a class="dropdown-item" href="register.php">Register</a></li>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"
+                                   href="index.php">Home</a></li>
+                            <li><a class="dropdown-item"
+                                   href="login.php">Login</a></li>
+                            <li><a class="dropdown-item" href="register.php">Register</a>
+                            </li>
                             <li><a class="dropdown-item" href="#">#</a></li>
                         </ul>
                     </li>
@@ -66,8 +78,52 @@
             </div>
         </div>
     </nav>
+    <br>
+</div>
+<div class="container">
+    <div class="card mb-3">
+        <div class="card-body">
+            <h3 class="card-title text-center">Registration Form</h3>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <form>
+        <div class="mb-3">
+            <label for="firstname" class="form-label" hidden="hidden">First Name</label>
+            <input type="text" class="form-control" id="firstname"
+                   placeholder="Your First Name"
+                   required>
+        </div>
+        <div class="mb-3">
+            <label for="lastname" class="form-label" hidden="hidden">Last Name</label>
+            <input type="text" class="form-control" id="lastname"
+                   placeholder="Your Last Name"
+                   required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label" hidden="hidden">Email</label>
+            <input type="email" class="form-control" id="email"
+                   placeholder="Email: name@example.com"
+                   required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label" hidden="hidden">Password</label>
+            <input type="password" class="form-control" id="password"
+                   placeholder="Password"
+                   required>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
 
 
+
+
+        <br>
+
+
+    </form>
 </div>
 
 
